@@ -1,7 +1,9 @@
 # Forged-APP
 <img width="431" alt="Capture" src="https://user-images.githubusercontent.com/43638955/113031197-05a47b00-91ac-11eb-854a-3b7473807bc6.PNG">
 ## Watch This Video to understand what this project is all about
+
 [![Alt text](https://img.youtube.com/vi/xP8vPzHPoUw/sddefault.jpg)](https://www.youtube.com/watch?v=xP8vPzHPoUw)
+
 ## Problems 
 
 * On social media platforms ,  photographs are manipulated and are used in a very improper way with bad intentions . 

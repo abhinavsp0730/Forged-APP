@@ -1,7 +1,7 @@
 # Forged-APP
 <img width="431" alt="Capture" src="https://user-images.githubusercontent.com/43638955/113031197-05a47b00-91ac-11eb-854a-3b7473807bc6.PNG">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xP8vPzHPoUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/xP8vPzHPoUw)
 ## Problems 
 
 * On social media platforms ,  photographs are manipulated and are used in a very improper way with bad intentions . 

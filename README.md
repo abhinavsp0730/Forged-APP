@@ -22,7 +22,17 @@
 
 You can get the images verified and be aware of the morphing the images .  
 
-## How to use:
-Go to ```Forged-App/ForgedApp-Backend``` and run ```pip install -r requirements.txt```
-It'll create a web server and and one can Send images as a ```HTTPS Requests``` to the created server and get the result from our model.
-In order to use to use the twitter bot you need to create the Developer Account for twitter and then you'll get your access tokens. And you've to put these credententials to ```Forged-APP/Twitter-Bot/credentials.py```
+## How to use(Without Docker):
+You need ```Python 3.6``` in order to run this project
+Go to ```Forged-App/ForgedApp-Backend``` and run ```pip install -r requirements.txt```.
+You can start the server by using ```uvicorn main:app --reload``` .
+It'll create a web server and and one can Send images as a ```HTTPS Post Requests``` to the created server and get the result from our model.
+The format for the body of post request using json is ```{"url":"#url of the image"} ``` .
+In order to use to use the twitter bot you need to create the Developer Account for twitter and then you'll get your access tokens. And you've to put these credententials to ```Forged-APP/Twitter-Bot/credentials.py```.
+
+## How to use(With Docker):
+Build the docker image by runing the command ```docker build -t myimage .```.
+And then run the docker container ```docker run -d --name mycontainer -p 80:80 myimage```.
+After that one can Send images as a ```HTTPS Post Requests``` to ```http://localhost:80/predict``` and get the result from our model.
+The format for the body of post request using json is ```{"url":"#url of the image"} ``` .
+
